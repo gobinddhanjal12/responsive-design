@@ -43,9 +43,11 @@ span {
 .card-content-header {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.card-content-header span {
+.card-content-header span{
     margin-right: 40px;
 }
 
