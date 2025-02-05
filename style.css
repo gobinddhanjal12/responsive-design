@@ -3,18 +3,18 @@ body {
 }
 
 h2 {
-    font-size: large;
+    font-size: medium;
 }
 
 p,
 a,
 span {
-    font-size: small;
+    font-size: x-small;
 }
 
 .header {
     text-align: center;
-    padding: 40px;
+    padding: 20px;
 }
 
 .card {
@@ -25,8 +25,8 @@ span {
 }
 
 .card-content {
-    flex: 3;
-    padding: 20px;
+    flex: 2;
+    padding: 16px;
     background: #ffffff;
 }
 
@@ -88,6 +88,7 @@ span {
     position: relative;
     max-width: 250px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .search-box i {
@@ -110,6 +111,16 @@ span {
 
 
 @media screen and (min-width:768px) {
+
+    h2 {
+        font-size: large;
+    }
+    
+    p,
+    a,
+    span {
+        font-size: small;
+    }
 
 
     .search-box{
