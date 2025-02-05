@@ -48,11 +48,11 @@ span {
 }
 
 .card-content-header span{
-    margin-right: 40px;
+    margin-right: 1em;
 }
 
 .container {
-    padding: 40px;
+    padding: 10px;
 }
 
 .big-card {
@@ -99,7 +99,7 @@ span {
 }
 
 .search-box input {
-    width: 100%;
+    width: 82%;
     padding: 10px 10px 10px 35px;
     border: 1px solid #ccc;
     border-radius: 20px;
